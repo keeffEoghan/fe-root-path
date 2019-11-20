@@ -1,13 +1,13 @@
-# get-root-path
+# get-base-path
 
 Small utility to handle paths for different hosts - for hosting on local/Github/etc.
 
 ## Usage
 
 ```javascript
-import getRootPath from 'get-root-path';
+import getBasePath from 'get-base-path';
 
-const url = getRootPath()+'path/to.asset';
+const url = getBasePath()+'path/to.asset';
 
 console.log(url);
 
