@@ -8,8 +8,5 @@
   "license": "MIT",
   "browserslist": [
     "last 1 Chrome versions"
-  ],
-  "devDependencies": {
-    "marked": "^0.7.0"
-  }
+  ]
 }

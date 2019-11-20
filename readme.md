@@ -5,7 +5,7 @@ For hosting on local/Github/etc.
 
 ## Usage
 
-```
+```javascript
 import rootPath from 'fe-root-path';
 
 const url = rootPath+'path/to.asset';
