@@ -1,6 +1,6 @@
-import getRoot from './';
+import getRootPath from './';
 
-const url = getRoot()+'index.js';
+const url = getRootPath()+'index.js';
 
 console.log(url);
 

@@ -5,9 +5,9 @@ Small utility to handle paths for different hosts - for hosting on local/Github/
 ## Usage
 
 ```javascript
-import getRoot from 'get-root-path';
+import getRootPath from 'get-root-path';
 
-const url = getRoot()+'path/to.asset';
+const url = getRootPath()+'path/to.asset';
 
 console.log(url);
 
