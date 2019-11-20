@@ -1,12 +1,19 @@
 {
-  "name": "fe-root-path",
+  "name": "get-root-path",
   "version": "1.0.0",
-  "description": "Handle paths on front-end for different hosts - for local/Github/etc hosting.",
+  "description": "Small utility to handle paths for different hosts - for hosting on local/Github/etc.",
   "main": "index.js",
-  "repository": "https://github.com/keeffEoghan/fe-root-path",
+  "repository": "https://github.com/keeffEoghan/get-root-path",
   "author": "Eoghan O'Keeffe <epok.tech@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "10.16.3",
+    "yarn": "1.19.0"
+  },
   "browserslist": [
     "last 1 Chrome versions"
-  ]
+  ],
+  "devDependencies": {
+    "marked": "^0.7.0"
+  }
 }

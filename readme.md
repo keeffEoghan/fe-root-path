@@ -1,14 +1,13 @@
-# fe-root-path
+# get-root-path
 
-Small utility to handle paths on front-end for different hosts.
-For hosting on local/Github/etc.
+Small utility to handle paths for different hosts - for hosting on local/Github/etc.
 
 ## Usage
 
 ```javascript
-import rootPath from 'fe-root-path';
+import getRoot from 'get-root-path';
 
-const url = rootPath+'path/to.asset';
+const url = getRoot()+'path/to.asset';
 
 console.log(url);
 

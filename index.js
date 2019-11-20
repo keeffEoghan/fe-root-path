@@ -1,5 +1,5 @@
-export const rootPath =
-    `/${((location.href.match(/:\/\/.+?\/([^\/\?]+?(?=[\/\?]|$))?/i) || [])[1] || '')}/`
+export const getRoot = (href = ((self.location && self.location.href) || '')) => 
+    `/${((href.match(/:\/\/.+?\/([^\/\?]+?(?=[\/\?]|$))?/i) || [])[1] || '')}/`
         .replace(/(?:\/|.+\.html?)+/gi, '/');
 
-export default rootPath;
+export default getRoot;
