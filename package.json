@@ -1,0 +1,9 @@
+{
+  "name": "static-root-path",
+  "version": "1.0.0",
+  "description": "Handle paths on different web hosts - for local/Github/etc hosting.",
+  "main": "index.js",
+  "repository": "https://github.com/keeffEoghan/fe-root-path",
+  "author": "Eoghan O'Keeffe <epok.tech@gmail.com>",
+  "license": "MIT"
+}
