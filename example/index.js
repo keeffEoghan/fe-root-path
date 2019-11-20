@@ -1,4 +1,4 @@
-import getBasePath from './';
+import getBasePath from '../';
 
 const url = getBasePath()+'index.js';
 

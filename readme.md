@@ -5,7 +5,7 @@ Small utility to handle paths for different hosts - for hosting on local/Github/
 ## Usage
 
 ```javascript
-import getBasePath from 'get-base-path';
+import getBasePath from '../';
 
 const url = getBasePath()+'path/to.asset';
 
@@ -14,6 +14,6 @@ console.log(url);
 (async () => {
     const response = await fetch(url);
 
-    console.log(response.ok && (await response.text()));
+    console.log(response.ok);
 })();
 ```
