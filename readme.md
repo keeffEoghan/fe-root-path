@@ -1,4 +1,4 @@
-# get-base-path
+# `get-base-path`
 
 Small utility to handle paths for different hosts - for hosting on local/Github/etc.
 
