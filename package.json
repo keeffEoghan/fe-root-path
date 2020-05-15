@@ -1,14 +1,14 @@
 {
   "name": "get-base-path",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Small utility to handle paths for different hosts - for hosting on local/Github/etc.",
   "main": "index.js",
   "repository": "https://github.com/keeffEoghan/get-base-path",
   "author": "Eoghan O'Keeffe <epok.tech@gmail.com> (https://epok.tech)",
   "license": "MIT",
   "engines": {
-    "node": "10.16.3",
-    "yarn": "1.19.0"
+    "node": ">= 12.14.1",
+    "yarn": ">= 1.22.0"
   },
   "browserslist": [
     "last 1 Chrome versions"
